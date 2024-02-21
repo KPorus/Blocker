@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "URL Blocker",
   "version": "1.0",
-  "description": "Empower your browsing experience with the URL Guardian Chrome Extension! Proactively filter and block unwanted URLs, ensuring a safer and more secure online environment. Say goodbye to adult content websites and enjoy a family-friendly web experience. Take control of your online safety today!",
+  "description": "Empower your browsing experience...",
   "permissions": ["activeTab", "tabs", "webNavigation"],
   "background": {
     "service_worker": "background.js"
@@ -11,6 +11,12 @@
     {
       "matches": ["<all_urls>"],
       "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["keywords.json"],
+      "matches": ["<all_urls>"]
     }
   ]
 }
