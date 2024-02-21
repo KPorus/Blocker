@@ -36,3 +36,19 @@ Contributions are welcome! Feel free to open issues and pull requests.
 ## No License
 
 This project is not licensed. You are free to use, modify, and distribute the code as per your needs.
+
+**Note:** To get started, create a `keywords.json` file (referenced in the `.gitignore` file) with a list of keywords. Here's an example of `keywords.json`:
+
+```json
+{
+  "KEYWORDS": [
+    "porn",
+    "pron",
+    "jav",
+    "adult",
+    // Add more keywords as needed
+  ]
+}
+```
+Feel free to customize the content further based on your preferences.
+
