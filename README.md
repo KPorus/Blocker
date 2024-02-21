@@ -37,6 +37,7 @@ Contributions are welcome! Feel free to open issues and pull requests.
 
 This project is not licensed. You are free to use, modify, and distribute the code as per your needs.
 
+## Before start workng
 **Note:** To get started, create a `keywords.json` file (referenced in the `.gitignore` file) with a list of keywords. Here's an example of `keywords.json`:
 
 ```json
