@@ -18,7 +18,7 @@ The SafeBrowse extension is designed to enhance online safety by preventing user
 4. Enable "Developer mode" in the top right corner.
 5. Click on "Load unpacked" and select the cloned repository folder.
    
-# For Incognito mode
+### For Incognito mode
 1. Open Chrome and go to the extensions management page by typing `chrome://extensions/` in the address bar and pressing Enter.
 2. Locate your extension in the list.
 3. Click on "Details" for your extension.
