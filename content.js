@@ -16,6 +16,10 @@ function loadAndCheckKeywords(adultKeywords) {
   try {
     const currentUrl = window.location.href.toLowerCase();
 
+    if (currentUrl.includes("youtube.com")) {
+      return;
+    }
+
     if (adultKeywords.some((keyword) => currentUrl.includes(keyword))) {
       chrome.runtime.sendMessage({ action: "redirect" });
     }
