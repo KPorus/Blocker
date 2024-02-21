@@ -25,6 +25,9 @@ function checkAndRedirect() {
     "xvedio",
     "smutr",
     "free-sex-vedio",
+    "adult",
+    "indian-adult-web-series",
+    "hot"
   ];
 
   const currentUrl = window.location.href.toLowerCase();
